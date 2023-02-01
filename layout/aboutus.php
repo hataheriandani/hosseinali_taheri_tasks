@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php
+$title = "About Us : Hamk oy";
+include "header.php" ?>
 
 <h1> about us </h1>
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia 

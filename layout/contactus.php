@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php 
+$title = "Contact Us : Hamk oy";
+include "header.php" ?>
 
 <h1> contact us </h1>
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia 
