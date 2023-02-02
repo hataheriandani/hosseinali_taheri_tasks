@@ -8,15 +8,31 @@
     <link rel="stylesheet" href="homestyle.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <body>
+
+<div class="wrapper">
+<div class="container">
+
+    <div class="row">
+      <div class="col-md-2">
+        <img class="logo" src="images/logo.png" alt="logo">
+      </div>
+
+      <div class="col-md-6">
+        <h1><b>Bon Appétit</b></h1>
+      </div>
+
+      <div class="col-md-4" style="text-align: right;">
+        <a class="btn btn-danger" href="about.php" role="button" style="vertical-align: middle ;"> <b>About us</b></a>
+        <a class="btn btn-danger" href="https://www.hamk.fi/" role="button" style="vertical-align: middle ;"> <b>Make Reservation</b></a>
+        <a class="home" href="index.php"><img class="home" src="images/home.png" alt="home button"> </a>
+      </div>
 <style>
     
-.log {
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
+    .logo {
+
+width: 200px;
+margin-top: 20px;
 }
 
 .btn {
