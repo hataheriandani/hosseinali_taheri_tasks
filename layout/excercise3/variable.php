@@ -73,7 +73,7 @@ $num1 = 298;
 $num2 = 234;
 $num3 = 46;
 $sum = $num1 + $num2 + $num3;
-echo "Sum of" . " " . $num1 . "," . $num2 . "and" . $num3 . " " . "is" . " " . $sum . ".";
+echo "Sum of" . " " . $num1 ." " . "," ." " . $num2 ." " . "and" ." " . $num3 . " " . "is" . " " . $sum . ".";
 ?>
 <h2>6 Write a PHP script to detect the browser being used to view 
     your pages. (Use predefined variables: $_SERVER). 
