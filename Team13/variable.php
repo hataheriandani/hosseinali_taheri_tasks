@@ -61,8 +61,11 @@ Print the length of the string. (Hint: string function)
 $city = "Hämeenlinnan";
 $verb = "on";
 $adjective = "Kaunis Kaupunki.";
-echo $city . " " .$verb. " " . $adjective;
+echo $sentence= $city . " " .$verb. " " . $adjective;
+echo "<br>" ."The lenght of above sentence is " . strlen($sentence);
  ?>
- 
+ <h2>Write a script to add up the numbers: 298, 234, 46.
+     Use variables to store these numbers and echo statement to output your answer.
+</h2>
 
 <?php include "footer.php"?>
