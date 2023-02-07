@@ -2,7 +2,8 @@
   </div>
 <footer>
           <div class="footer-box">
-
+          
+            
             <div>
               <P>&copy; TEAM-13 - HAMK 2023<br>
                  Vankanlähde 9, 13100 Hämeenlinna.</P>
@@ -10,13 +11,24 @@
             
             <div>
               <P>Email: bon.appétit@gmail.fi</P>
+              <p>
+             Last modified: 
+            <?php
+            $file = basename($_SERVER['SCRIPT_FILENAME']);
+            $lastModified = date("F d Y H:i:s.", filemtime($file));
+            echo  $lastModified;
+            ?>
+            </p>
             </div>
 
             <div>
-              <P>Tel: <a href="tel:+358101010101">+358 1010 10101</a></p>
+          <P>Tel: <a href="tel:+358101010101">+358 1010 10101</a></p>
             </div>
-
+           
+          
           </div>
+          
+          
       </footer>
     
 </div>
