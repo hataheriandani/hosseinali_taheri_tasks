@@ -25,6 +25,7 @@
       <div class="col-md-4" style="text-align: right;">
         <a class="btn btn-danger" href="about.php" role="button" style="vertical-align: middle ;"> <b>About us</b></a>
         <a class="btn btn-danger" href="ex1.php" role="button" style="vertical-align: middle ;"> <b>Exercise 1</b></a>
+        <a class="btn btn-danger" href="variable.php" role="button" style="vertical-align: middle ;"> <b>Exercise 3</b></a>
         <a class="btn btn-danger" href="https://www.hamk.fi/" role="button" style="vertical-align: middle ;"> <b>Make Reservation</b></a>
         <a class="home" href="index.php"><img class="home" src="images/home.png" alt="home button"> </a>
       </div>
