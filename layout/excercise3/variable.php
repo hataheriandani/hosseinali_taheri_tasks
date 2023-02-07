@@ -64,5 +64,16 @@ $adjective = "Kaunis Kaupunki.";
 echo $sentence= $city . " " .$verb. " " . $adjective;
 echo "<br>" ."The lenght of above sentence is " . strlen($sentence);
  ?>
+ <h2>5 Write a script to add up the numbers: 298, 234, 46.
+     Use variables to store these numbers and echo statement
+      to output your answer.
+</h2>
+<?php
+$num1 = 298;
+$num2 = 234;
+$num3 = 46;
+$sum = $num1 + $num2 + $num3;
+echo "Sum of" . " " . $num1 . "," . $num2 . "and" . $num3 . " " . "is" . " " . $sum . ".";
+?>
 
 <?php include "footer.php"?>
