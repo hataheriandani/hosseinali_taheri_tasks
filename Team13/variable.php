@@ -53,6 +53,16 @@ Prepare a simple html table and apply bootstrap style to the table.
     </tr>
   </tbody>
 </table>
-
+<h2>
+4 Write a PHP script with two string variables. Assign any text to these variables. Join them together.
+Print the length of the string. (Hint: string function)
+</h2>
+<?php
+$city = "Hämeenlinnan";
+$verb = "on";
+$adjective = "Kaunis Kaupunki.";
+echo $city . " " .$verb. " " . $adjective;
+ ?>
+ 
 
 <?php include "footer.php"?>
