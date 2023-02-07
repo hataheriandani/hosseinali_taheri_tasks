@@ -58,7 +58,6 @@ h2 {
 
 }
 
-
 .home {
     width: 60px;
     margin-top: 90px;
