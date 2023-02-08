@@ -15,8 +15,28 @@ if ($main_month == "August") {
     echo "Not August, this is $main_month so I don't have any holidays.";
 }
 ?>
+<h4>
+Assign colour red to a variable name $color and check to print one the following responses (if else statement)
+The color is red. 
+The color is not red.
+</h4>
+<?php
+$color_bace = "red";
 
-
+if ($color_bace == "red") {
+    echo "The color is red.";
+} else {
+    echo "The color is not red.";
+}
+?>
+<h4>
+Write a program to grade students based on their total score for a subject. Use variable to hold the total score. The grading scheme is: 
+Excellent: >80; 
+Great > 70 & less than 80;
+Good > 60 & less than 70; 
+Pass > 50 & less than 60;
+Fail < 50 
+</h4>
 
 
 <?php include "footer.php"?>
