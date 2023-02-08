@@ -79,8 +79,19 @@ echo "Sum of" . " " . $num1 ." " . "," ." " . $num2 ." " . "and" ." " . $num3 . 
     your pages. (Use predefined variables: $_SERVER). 
 </h2>
 <?php
-echo $_SERVER['HTTP_USER_AGENT'];
-echo "<br>";
+ $user_agent = $_SERVER['HTTP_USER_AGENT'];
+ if (strpos($user_agent, 'Edg') !== false) {
+     echo "You are using Microsoft Edge";}
+ elseif (strpos($user_agent, 'Firefox') !== false) {
+     echo "You are using Mozilla Firefox";}
+ elseif (strpos($user_agent, 'Chrome') !== false) {
+     echo "You are using Google Chrome";}
+ elseif (strpos($user_agent, 'MSIE') !== false) {
+     echo "You are using Internet Explorer";}
+ elseif (strpos($user_agent, 'Safari') !== false) {
+     echo "You are using Apple Safari";}
+ else {
+     echo "Your browser is not recognized";}
 ?>
 <h2>7 Write a PHP script in the footer section of your universal footer
      just below the Copyright information to display the last modification time of a file. 
