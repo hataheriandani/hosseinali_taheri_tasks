@@ -45,39 +45,31 @@ $courses3 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
 asort($courses3);
 
 echo "Ascending order sort by value:<br>";
-for ($i = 0; $i < count($courses3); $i++) {
-    echo "<li>$courses3[$i] . <br>";
-}
+echo implode(",", $courses3);
 ?>
 <?php
 $courses3 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
 
 ksort($courses3);
 
-echo "Ascending order sort by key:<br>";
-for ($i = 0; $i < count($courses3); $i++) {
-    echo $courses3[$i] . "<br>";
-}
+echo "<br> Ascending order sort by key:<br>";
+echo implode(",", $courses3);
 ?>
 <?php
 $courses3 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
 
 arsort($courses3);
 
-echo "Descending order sort by value:<br>";
-for ($i = 0; $i < count($courses3); $i++) {
-    echo "<li>$courses3[$i] . <br>";
-}
+echo "<br> Descending order sort by value:<br>";
+echo implode(",", $courses3);
 ?>
 <?php
 $courses3 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
 
 krsort($courses3);
 
-echo "Descending order sort by key:<br>";
-for ($i = 0; $i < count($courses3); $i++) {
-    echo $courses3[$i] . "<br>";
-}
+echo "<br>Descending order sort by key:<br>";
+echo implode(",", $courses3);
 ?>
 <h4>
 4- Change the following array's all values to upper case.
@@ -92,6 +84,26 @@ for ($i = 0; $i < count($courses4); $i++) {
     echo $courses4[$i] . "<br>";
 }
 ?>
+<h4>
+5- List all your favorite colors and their hexadecimal equivalents. (associative arrays)
+</h4>
+<?php
+$colors = array(
+  "blue" => "#0000ff",
+  "yellow" => "#ffff00",
+  "pink" => "#ffc0cb",
+  "orange" => "#ffa500",
+  "black" => "#000000",
+  "gray" => "#808080"
+);
+
+$keys = array_keys($colors);
+
+for ($i = 0; $i < count($keys); $i++) {
+    echo $keys[$i] . ": " . $colors[$keys[$i]] . "<br>";
+}
+?>
+
 
 
 
