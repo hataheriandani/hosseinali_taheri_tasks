@@ -1,41 +1,39 @@
 <?php include 'header.php'; ?>
-<form action=""method="get">
-<input type="number" placeholder="Enter your first number" name= "num1">
-<input type="number" placeholder="Enter your first number" name= "num2">
-<select name="operator" id="">
+<form action="" method="get">
+    <input type="number" placeholder="Enter your first number" name="num1" required >
+    <input type="number" placeholder="Enter your second number" name="num2" required>
+    <select name="operator">
     <option value="add">Add</option>
     <option value="sub">Subtract</option>
     <option value="mul">Multiply</option>
     <option value="div">Divide</option>
-</select>
-<input type="submit" name="cal" value="calculate">
+    </select>
+    <input type="submit" name="cal" value="calculate">
 </form>
 <?php
-if (isset($_Get["cal"])){
-    $num1 = $_Get["num1"];
-    $num2 = $_Get["num2"];
-    $operat = $_Get["operator"];
+if(isset($_GET["cal"])){
+    $num1 = $_GET["num1"];
+    $num2 = $_GET["num2"];
+    $operator = $_GET["operator"];
     switch($operator){
         case "add":
             $result = $num1 + $num2;
-            break;
+        break;
         case "sub":
             $result = $num1 - $num2;
-            break;
+        break;
         case "mul":
             $result = $num1 * $num2;
-            break;
+        break;
         case "div":
             $result = $num1 / $num2;
-            break;
+        break;
         default:
-            $result = "Error: You have not selected the correct oprator";
-
+            $result = "Error : you have not selected the correct operator";
     }
 }
-if (itset($result)){
-    echo "<h2> Result : $result </h2>" ;
+if (isset($result)){
+    echo "<h2> Result: $result</h2>";
 }
 ?>
-
-<?php include "footer.php";?>
+<?php include "footer.php"; ?>
