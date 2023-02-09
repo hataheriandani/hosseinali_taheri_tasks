@@ -40,6 +40,9 @@
           <a class="nav-link" href="exercise_array_inclass.php">Exercise Array</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="array.php">Array</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="aboutus.php">About Us</a>
         </li>
         <li class="nav-item">
