@@ -61,6 +61,31 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      some thing here
+    
+      <!--  <li>
+          <a href="../crud1/create.php" style="color:red;">tasks</a>
+        </li>
+        <li>
+        <a href="../crud1/read.php" style="color: red;">Retrieve</a>
+        </li>
+    
+      <h3>Simple CRUD APP</h3>
+    
+        <li>
+          <a href="../crud1/create.php" style="color: red;">Create</a>
+        </li>
+        <li>
+        <a href="../crud1/read.php" style="color: red;">Retrieve</a>
+        </li>
+        
+      <h3>Simple CRUD APP- InClass</h3>
+       !-->
+        <li>
+          <a href="../crud1/create.php" style="color: red;">Create</a>
+        </li>
+        <li>
+        <a href="../crud1/read.php" style="color: red;">Retrieve</a>
+        </li>
+    </ul>
     </div>
     <div class="col-sm-9">
