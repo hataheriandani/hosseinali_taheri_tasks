@@ -20,18 +20,18 @@ $row = mysqli_fetch_array($result);
         <option value="Group2"> Group2 </option>
         <option value="Group3"> Group3 </option>
     </select><br><br>
-    <input type ="submit" value ="Update your Info" name="Update" ><br><br>
+    <input type ="submit" value ="Update your Info" name="update" ><br><br>
     <input type ="submit" value ="Delete your Info" name="Delete" ><br><br>
 </form>
 <?php
-        if (isset($_post['update'])){
+        if (isset($_POST['update'])){
             $fname =$_POST ['fname'];
             $lname =$_POST ['lname'];
             $city =$_POST ['city'];
             $groupid =$_POST ['groupid'];
-            $query = mysqli_query($conn,"UPDATE studentInfu set fname='$fname',
+            $query = mysqli_query($conn," UPDATE studentInfu set fname='$fname',
             lname='$lname', groupid='$groupid' , city='$city' where id='$a'");
-        if($qquery){
+        if($query){
                 echo "<h2> Your information is updated successfully </h2>";
         }
         else{
